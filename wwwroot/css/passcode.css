@@ -1,0 +1,20 @@
+body {
+    background: black;
+    color: white;
+}
+.wrapper {
+    border: 5px solid purple;
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.word {
+    border: 3px double green;
+
+}
+
+#funnyColors {
+    margin: 5px auto;
+}

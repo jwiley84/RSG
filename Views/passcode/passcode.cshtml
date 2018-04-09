@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Passcode Generator</title>
+    <link rel="stylesheet" href="~/css/passcode.css">
+</head>
+<body>
+    <div class="wrapper"><h1>This is my test page</h1>
+    @{
+
+        
+
+        //this needs to be a ViewBag item
+        string test = ViewBag.Test;
+        string replacement = "Hello!";
+        int count = ViewBag.Count;
+    }
+
+
+    <p>Random passcode (passcode #@count)</p>
+    <div id="funnyColors"><span class="word">@test</span></div>
+    <button>Generate</button></div>
+</body>
+</html>
